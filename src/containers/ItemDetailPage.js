@@ -13,7 +13,6 @@ class ItemDetailPage extends Component {
         return (
             <React.Fragment>
                 <Header />
-                {/* <ItemDetail id="1" /> */}
                 <ItemDetail id={this.state.id} />
                 <Footer></Footer>
             </React.Fragment>

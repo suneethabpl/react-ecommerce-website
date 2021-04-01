@@ -10,7 +10,6 @@ class HomePage extends Component {
         return (
             <React.Fragment>
                 <Header />
-                {/* <Shop></Shop> */}
                 <About />
                 <Contact />
                 <Services />

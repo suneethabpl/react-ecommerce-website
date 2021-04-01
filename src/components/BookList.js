@@ -1,33 +1,5 @@
 import React, { Component } from 'react';
 import Book from './Book'
-// const Book=(props)=>{
-//     return(
-
-//    
-//        
-//      <tr key={props.book.id}>
-//        
-// <td>{props.book.id}</td>
-//        
-//      <td>{props.book.title}</td>
-//        
-// <td>{props.book.author}</td>
-//        
-
-//        
-//      <td><button onClick={()=>{
-
-//       this.deleteBook(props.book.id)
-
-
-//        
-//         }}>Delete</button></td>
-//        
-//         </tr>
-// )
-// }
-
-
 
 class BookList extends Component {
     constructor() {

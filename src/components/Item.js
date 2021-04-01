@@ -24,7 +24,6 @@ class Item extends Component {
         return (
             <div>
                     <h1> <Link to={"/items/"+this.state.item.id}>{this.state.item.name}</Link></h1>
-                {/* <h1>{this.state.item.name}</h1> */}
                 <p>price: {this.state.item.price}</p>
                  
                 {

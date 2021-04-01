@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
-// import Shop from './Shop'
 import {
   BrowserRouter as Router,
-  // Link,
   Route,
   Switch
 } from 'react-router-dom'
@@ -21,10 +19,6 @@ import UsersPage from './containers/UsersPage'
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-       <h1>Tesco Shop</h1>
-      </header> */}
-      {/*  <Shop></Shop> */}
       <Router>
         <Switch>
           <Route exact path="/" component={HomePage} />

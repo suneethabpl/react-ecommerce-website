@@ -29,7 +29,6 @@ class Contact extends Component {
         var touched = Object.assign({}, this.state.touched)
 
         touched[fieldName] = true;
-        //touched.name=true
         this.setState({
             touched: touched
         })
@@ -64,7 +63,6 @@ class Contact extends Component {
     }
     onSubmit = (e) => {
         e.preventDefault();
-        //Submit data to server
         var url = "/api/sendemail";
         var data = {
             name: this.state.name,

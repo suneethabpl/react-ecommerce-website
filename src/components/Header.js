@@ -6,18 +6,6 @@ class Header extends Component {
     render() {
         return (
 
-            // <header classNameNameName="App-header">
-            //     <h1>Tesco Shop website</h1>
-            //     <ul>
-
-            //         <li><Link to="/">Home</Link></li>
-            //         <li><Link to="/about">About</Link></li>
-            //         <li><Link to="/contact">Contact</Link></li>
-            //         <li><Link to="/dashboard">Dashboard</Link></li>
-            //         <li><Link to="/login">Login</Link></li>
-            //     </ul>
-            // </header>
-
             <React.Fragment>
                 <header className="header-6">
                     <div className="container">
@@ -43,12 +31,6 @@ class Header extends Component {
                                 </div>
                                 <div className="collapse navbar-collapse">
                                     <ul className="nav">
-                                        {/* <li><a href="#">HOME</a></li>
-                                        <li><a href="#">ABOUT</a></li>
-                                        <li><a href="#">SERVICES</a></li>
-                                        <li><a href="#">CAREERS</a></li>
-                                        <li><a href="#">CONTACT</a></li> */}
-
                                         <li><Link to="/">Home</Link></li>
                                         <li><Link to="/about">About</Link></li>
                                         <li><Link to="/contact">Contact</Link></li>
